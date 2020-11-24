@@ -1,0 +1,141 @@
+ body {
+	 background-image: url(picture/grad1.jpg);
+	 background-size: cover;
+	 background-attachment: fixed;
+	 color: white;
+
+
+}
+
+#name_poet{
+	font-size: 40px;
+	border-bottom: 2px solid white;
+	margin: 15px;
+    
+}
+.nav_bar {
+	border: 2px solid white;
+    border-radius: 50px 50px 0px  0px ;
+	background-color: black;
+	height: 30px;
+	width: auto;
+	
+}
+.nav_bar > ul > li {
+	margin: 20px;
+	display: inline;
+	
+}*/
+
+.top {
+	display: flex;
+	transition: 10s;
+	text-align: center;
+	margin: 20px;
+	height: 130px;
+	border: 2px solid white;
+    border-radius: 50px 50px 0px  0px ;
+}
+/*.top:hover{
+	transform: rotateY(100deg);
+	}*/
+#top_title {
+	
+	font-family: sans-serif;
+	font-size: 45px;
+	position: absolute;
+	left: 32%;
+	
+}
+
+#search {
+	position: absolute;
+	right: 170px;
+	width: 180px;
+	height: 40px;
+	top: 110px;
+	border: 1px solid white;
+	border-radius: 23px  0px 0px 0px;
+	opacity: 0.5;
+	font-size: 20px;
+}
+#submit {
+    opacity: 0.7;
+	border: 1px solid white;
+	background-color: black;
+	color: white;
+	position: absolute;    font-size: 20px;
+	right: 60px;
+	width: 110px;
+	height: 40px;
+	top: 110px;
+	border-radius: 0px  23px 0px 0px;
+}
+
+
+.bt {
+    height: 150px; 
+    width: 100px; 
+	background-size: cover;
+	margin-left:3px;
+	
+	
+	
+}
+.bt:hover{
+    width: 120px;
+	}
+	
+._0 {
+	background-image: url(picture/Charents.jpg);
+}
+._1 { 
+	background-image: url(picture/Sevak.jpg);
+}
+._2 { 
+	background-image: url(picture/Tumanyan.jpg);
+}
+._3 { 
+	background-image: url(picture/Sahyan.jpg);
+}
+
+
+
+
+
+
+
+.main {
+    width: auto;
+	display: flex;
+}
+
+.div1 {
+	
+	width: 240px;
+	margin: 20px;
+	padding: 3px;
+	height: 500px auto;
+	border: 2px solid white;
+	border-radius: 50px  0px 0px 50px;
+}
+.div2 {
+	text-align: center;
+	width: 650px;
+	margin: 20px;
+	padding: 3px;
+	height: 500px auto;
+	border: 2px solid white;
+}
+.div3 {
+	cursor: pointer;
+	text-align: left;
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	margin: 20px;
+	padding: 1px;
+	height: 500px auto;
+	border: 2px solid white;
+	border-radius: 0px  50px 5px 0px;
+}
